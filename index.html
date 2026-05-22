@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Gamer Feedback Survey</h1>
+<p id="description">Tell us about your favorite gaming experiences!</p>
+
+<form id="survey-form">
+  <div>
+    <label id="name-label" for="name">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required />
+  </div>
+
+  <div>
+    <label id="email-label" for="email">Email</label>
+    <input id="email" type="email" placeholder="Enter your email" required />
+  </div>
+
+  <div>
+    <label id="number-label" for="number">Age (optional)</label>
+    <input id="number" type="number" min="10" max="99" placeholder="Age" />
+  </div>
+
+  <div>
+    <p>Which platform do you prefer?</p>
+    <select id="dropdown">
+      <option disabled selected value>Select an option</option>
+      <option value="pc">PC</option>
+      <option value="console">Console</option>
+    </select>
+  </div>
+
+  <div>
+    <p>Do you play multiplayer games?</p>
+    <label><input type="radio" name="multiplayer" value="yes" /> Yes</label>
+    <label><input type="radio" name="multiplayer" value="no" /> No</label>
+  </div>
+
+  <div>
+    <p>What genres do you like? (Select all that apply)</p>
+    <label><input type="checkbox" value="rpg" /> RPG</label>
+    <label><input type="checkbox" value="fps" /> FPS</label>
+    <label><input type="checkbox" value="indie" /> Indie</label>
+  </div>
+
+  <div>
+    <p>Any additional comments?</p>
+    <textarea placeholder="Enter your comment here..."></textarea>
+  </div>
+
+  <button id="submit" type="submit">Submit</button>
+</form>
+  </body>
+</html>
