@@ -33,3 +33,12 @@ You only need a modern web browser (like Google Chrome, Mozilla Firefox, or Micr
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/survey-form.git](https://github.com/your-username/survey-form.git)
+
+   Navigate into the project directory:
+
+2. **Navigate into the project directory:**
+   bash
+cd survey-form
+
+3. **Open the project:**
+Simply double-click the index.html file to open it in your default web browser, or serve it using an extension like Live Server in VS Code.
